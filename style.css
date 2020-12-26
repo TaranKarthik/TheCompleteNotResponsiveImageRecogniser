@@ -1,0 +1,50 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: "Montserrat";
+    color: black;
+}
+
+.place{
+    background-color: white;
+    padding:  7% 15%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.heading{
+   
+    font-size: 2rem;
+    
+    background: white;
+    font-weight: 800;
+    font-size: 3rem;
+    
+    
+}
+
+hr{
+    background-color: white;
+    width: 40%;
+}
+
+.Div{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    width: 350px;
+    height: 270px;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 411){
+    .place{
+        padding:0%;
+        text-align: center;
+        
+    }
+
+}
